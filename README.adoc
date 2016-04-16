@@ -35,4 +35,4 @@ If none of those appeal then you can find plenty of other ones on the link:https
 === April 25th/26th 2016
 
 
-image::http://graphconnect.com/assets/images/gc-london-logo-round.png[http://graphconnect.com/]
+image::http://graphconnect.com/assets/images/gc-london-logo-round.png[link="http://graphconnect.com/"]
