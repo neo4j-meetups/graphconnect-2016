@@ -15,3 +15,5 @@ You can use link:data/load_csv.cql[this Cypher script] to load the data into Neo
 link:http://data.dft.gov.uk/gb-traffic-matrix/Traffic-major-roads-miles.csv[Traffic-major-roads-miles.csv] contains 250,000 of the major roads in the UK, how they're connected to each other and the traffic volume by vehicle type.
 
 link:http://data.dft.gov.uk/gb-traffic-matrix/all-traffic-data-metadata.pdf[This document] explains each column in more detail.
+
+image::http://graphconnect.com/assets/images/gc-london-logo-round.png[]
