@@ -10,10 +10,25 @@ link:data/runtimes.csv[runtimes.csv] contains underground stations, distances be
 
 You can use link:data/load_csv.cql[this Cypher script] to load the data into Neo4j
 
-== UK major roads
+== Roads
 
 link:http://data.dft.gov.uk/gb-traffic-matrix/Traffic-major-roads-miles.csv[Traffic-major-roads-miles.csv] contains 250,000 of the major roads in the UK, how they're connected to each other and the traffic volume by vehicle type.
 
-link:http://data.dft.gov.uk/gb-traffic-matrix/all-traffic-data-metadata.pdf[This document] explains each column in more detail.
+link:http://data.dft.gov.uk/gb-traffic-matrix/all-traffic-data-metadata.pdf[This document] explains the dataset in more detail.
+
+Jacqui Reed also has a link:http://neo4j.com/graphgist/be209beb-6884-4d8b-850b-7c17ffab8f3c[graphgist] showing different queries around the major roads in Staines!
+
+== Road Safety
+
+link:https://data.gov.uk/dataset/road-accidents-safety-data[Road Safety Data] contains information on road accidents stretching back to 1979.
+
+You can also download accidents for single years if you want to work with a smaller dataset.
+
+---
+
+=== Graph Connect Europe 2016
+
+==== April 25th/26th 2016
+
 
 image::http://graphconnect.com/assets/images/gc-london-logo-round.png[]
