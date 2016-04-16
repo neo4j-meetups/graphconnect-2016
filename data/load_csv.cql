@@ -1,6 +1,6 @@
 CREATE INDEX on :Station(stationName);
 
-LOAD CSV FROM "file:/Users/markneedham/projects/tube/runtimes.csv" AS csvLine
+LOAD CSV FROM "https://raw.githubusercontent.com/neo4j-meetups/graphconnect-2016/master/data/runtimes.csv" AS csvLine
 WITH csvLine[0] AS lineName,
      csvLine[1] AS direction,
      csvLine[2] AS startStationName,
