@@ -1,0 +1,11 @@
+= GraphHack - Graph Connect Europe 2016
+
+It's link:http://graphconnect.com/[Graph Connect] time again and for link:http://www.meetup.com/graphdb-london/events/227911674/[this year's hackathon] we've gone with a transport theme.
+
+You can find some datasets to get you started below:
+
+== Transport for London
+
+link:data/runtimes.csv[runtimes.csv] contains underground stations, distances between adjacent stations and the run time between stations on different lines.
+
+You can use link:data/load_csv.cql[this Cypher script] to load the data into Neo4j

@@ -42,8 +42,6 @@ MATCH (kenningtonCity:Station {stationName: "KENNINGTON (CITY)"})<-[:AT]-(kennin
 
 CREATE UNIQUE (kenningtonCxIn)-[:WAIT {runningTime: 0.0}]->(kenningtonCityIn);
 
-
-
 // query
 MATCH (startStation:Station { stationName: 'KINGS CROSS'})
 MATCH (destinationStation:Station { stationName: 'SOUTHWARK'})
