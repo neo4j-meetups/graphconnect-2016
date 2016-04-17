@@ -8,7 +8,9 @@ The folllowing are some datasets to get you started:
 
 link:data/runtimes.csv[runtimes.csv] contains underground stations, distances between adjacent stations and the run time between stations on different lines.
 
-You can use link:data/load_csv.cql[this Cypher script] to load the data into Neo4j
+You can use link:data/load_csv.cql[this Cypher script] to load the data into Neo4j.
+
+Alternatively you could download data from the link:https://api.tfl.gov.uk/[TFL unified API]. You can get accident stats, train and bus routes, disruptions and a few other things as well.
 
 == Roads
 
