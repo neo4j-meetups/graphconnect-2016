@@ -45,5 +45,5 @@ CREATE UNIQUE (kenningtonCxIn)-[:WAIT {runningTime: 0.0}]->(kenningtonCityIn);
 // query
 MATCH (startStation:Station { stationName: 'KINGS CROSS'})
 MATCH (destinationStation:Station { stationName: 'SOUTHWARK'})
-MATCH path = shortestPath(startStation-[*]-destinationStation)
+MATCH path = shortestPath((startStation)-[*]-(destinationStation))
 return path;
