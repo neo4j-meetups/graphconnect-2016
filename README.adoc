@@ -32,7 +32,7 @@ You can also download accidents for single years if you want to work with a smal
 * http://www.michaelwsherman.com/projects/flightdata/index.html[On-Time Flight Performance Databases]
 * https://gist.github.com/nicolewhite/cc178bf2a761d7ac3a20[Flights and Aircraft Fleets]
 * https://github.com/nicolewhite/neo4j-fleets[Airline Fleets]
-* http://www.lyonwj.com/mapping-the-worlds-airports-with-neo4j-spatial-and-openflights-part-1/[Mapping the World's Airports With Neo4j Spatial and Openflights]
+* http://www.lyonwj.com/mapping-the-worlds-airports-with-neo4j-spatial-and-openflights-part-1[Mapping the World's Airports With Neo4j Spatial and Openflights]
 * http://stackoverflow.com/questions/8862845/how-to-model-airport-flight-data-in-a-graph-database-like-neo4j
 * http://codiply.com/blog/flight-routes-graph-database-with-neo4j[Flight routes graph database with Neo4j]
 
