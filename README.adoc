@@ -2,6 +2,18 @@
 
 It's link:http://graphconnect.com/[Graph Connect] time again and for link:http://www.meetup.com/graphdb-london/events/227911674/[this year's hackathon] we've gone with a transport theme.
 
+== Loading Data
+
+If you used the installer for Neo4j 3.0, use this tool to load the semicolon-separated files:
+
+* https://github.com/johnymontana/LazyWebCypher
+
+Otherwise if you used the tar.gz Installation, you can use `neo4j-shell`
+
+----
+$NEO4J_HOME/bin/neo4j-shell -file path/to/file.cypher
+----
+
 The folllowing are some datasets to get you started:
 
 == Transport for London
@@ -25,6 +37,11 @@ Jacqui Reed also has a link:http://neo4j.com/graphgist/be209beb-6884-4d8b-850b-7
 link:https://data.gov.uk/dataset/road-accidents-safety-data[Road Safety Data] contains information on road accidents stretching back to 1979.
 
 You can also download accidents for single years if you want to work with a smaller dataset.
+
+== GTFS (General Transport Feed) Datasets
+
+* http://blog.bruggen.com/2015/11/loading-general-transport-feed-spec.html
+* http://blog.bruggen.com/2015/11/querying-gtfs-data-using-neo4j-23-part.html
 
 == Airlines
 
