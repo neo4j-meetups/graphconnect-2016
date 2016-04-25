@@ -36,6 +36,31 @@ You can also download accidents for single years if you want to work with a smal
 * http://stackoverflow.com/questions/8862845/how-to-model-airport-flight-data-in-a-graph-database-like-neo4j
 * http://codiply.com/blog/flight-routes-graph-database-with-neo4j[Flight routes graph database with Neo4j]
 
+
+== UK Crime Data - data.police.uk
+
+Street-level crime, outcome, and stop and search information, broken down by police force.
+
+* https://data.police.uk/data/[Data download available here]
+* https://gist.github.com/johnymontana/b661f86825310424e34f[Sample Cypher LOAD CSV script]
+
+
+== Skytrax Air Travel Reviews
+
+Reviews of airlines, airports, seats and lounges from Skytrax. Possibly a great match for using AlchemyAPI sentiment analysis tool (see below).
+
+* https://github.com/quankiquanki/skytrax-reviews-dataset[Skytrax reviews dataset Github repo]
+
+
+== AlchemyAPI
+
+http://www.alchemyapi.com/[AlchemyAPI] provides semantic text analysis tools, such as http://www.alchemyapi.com/api/sentiment/textc.html[sentiment analysis]. The folks from IBM have gracious donated an API for use during this event.
+
+* API key: c9d93252138b9fc4516359cf7ad4febf5feb4387
+* http://www.alchemyapi.com/developers/getting-started-guide[Getting started guide]
+* http://www.alchemyapi.com/developers/getting-started-guide/twitter-sentiment-analysis[Twitter sentiment analysis sample]
+
+
 == None of the above
 
 If none of those appeal then you can find plenty of other ones on the link:https://data.gov.uk/publisher/department-for-transport[Department of Transport page] on link:https://data.gov.uk[data.gov.uk].
