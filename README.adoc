@@ -4,9 +4,9 @@ It's link:http://graphconnect.com/[Graph Connect] time again and for link:http:/
 
 == Loading Data
 
-If you used the installer for Neo4j 3.0, use this tool to load the semicolon-separated files:
+If you used the installer for Neo4j 3.0, use this tool from Will to load the semicolon-separated files:
 
-* https://github.com/johnymontana/LazyWebCypher
+*  http://johnymontana.github.io/LazyWebCypher
 
 Otherwise if you used the tar.gz Installation, you can use `neo4j-shell`
 
